@@ -20,6 +20,7 @@ if [ -f .env ]; then
 fi
 USERNAME=$USERNAME
 TOKEN=$TOKEN
+# green="\033[0;32m"
 index=1
 echo "{\"repository_url\":{" > $HOME/developer/github_repository/repository.json
 for page in {1..3}; do

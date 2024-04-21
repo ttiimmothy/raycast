@@ -29,8 +29,11 @@ for page in {1..3}; do
   REPO_URL="https://api.github.com/user/repos?per_page=100&page=${page}"
   REPOS=$(curl -s -H "Authorization: Bearer ${TOKEN}" ${REPO_URL} | grep -E -o '"ssh_url": "git@github.com:ttiimmothy[^"]*"|"ssh_url": "git@github.com:openrice-canada[^"]*"|"ssh_url": "git@github.com:topology-symmetry[^"]*"|"ssh_url": "git@github.com:robot-analytics[^"]*"' | awk -F'"' '{print $4}')
   for repo in ${REPOS}; do
-    repo_name=$(basename ${repo} .git)
-    echo -e "${yellow}${index}${no_color} ${repo_name}"
+    path="${repo#git@github.com:}"
+    path="${path%.git}"
+    username=$(dirname ${path})
+    repo_name=$(basename ${path})
+    echo -e "${yellow}${index}  ${red}${username} ${no_color} ${repo_name}"
     ((index++))
   done
 done

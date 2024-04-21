@@ -21,6 +21,7 @@ fi
 USERNAME=$USERNAME
 TOKEN=$TOKEN
 TOPOLOGY_SYMMETRY_ORGANIZATION_PATH="$HOME/developer/github_repository/topology_symmetry_organization"
+# green="\033[0;32m"
 index=1
 echo "{\"repository_url\":{" > $TOPOLOGY_SYMMETRY_ORGANIZATION_PATH/repository.json
 REPO_URL="https://api.github.com/user/repos?per_page=100&page=${page}"
