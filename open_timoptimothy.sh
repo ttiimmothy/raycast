@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Repository
+# @raycast.title Hey
 # @raycast.mode silent
 
 # Optional parameters:
@@ -10,8 +10,8 @@
 # @raycast.icon icons/finder_icon.png
 
 # Documentation:
-# @raycast.description open github repository folder
+# @raycast.description open timoptimothy folder
 # @raycast.author timoptimothy
 # @raycast.authorURL https://raycast.com/timoptimothy
 
-open ~/Developer/github_repository
+open ~
