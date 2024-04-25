@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Git
+# @raycast.title Github repository
 # @raycast.mode silent
 
 # Optional parameters:
