@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Home
+# @raycast.title Root
 # @raycast.mode silent
 
 # Optional parameters:
