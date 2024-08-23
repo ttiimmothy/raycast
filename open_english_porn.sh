@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Voreprank
+# @raycast.title English Porn
 # @raycast.mode silent
 
 # Optional parameters:
@@ -10,8 +10,8 @@
 # @raycast.icon icons/finder_icon.png
 
 # Documentation:
-# @raycast.description open voreprank folder
+# @raycast.description open english porn folder
 # @raycast.author timoptimothy
 # @raycast.authorURL https://raycast.com/timoptimothy
 
-open ~/Integration/Voreprank
+open ~/Integration/English\ Porn
