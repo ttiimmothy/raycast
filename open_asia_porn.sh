@@ -14,4 +14,4 @@
 # @raycast.author timoptimothy
 # @raycast.authorURL https://raycast.com/timoptimothy
 
-open ~/Integration/Asia\ Porn
+open /Volumes/prograde/Integration/Southasia\ Porn

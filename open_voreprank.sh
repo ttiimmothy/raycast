@@ -14,4 +14,4 @@
 # @raycast.author timoptimothy
 # @raycast.authorURL https://raycast.com/timoptimothy
 
-open ~/Integration/Voreprank
+open /Volumes/prograde/Integration/Voreprank

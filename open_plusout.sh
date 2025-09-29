@@ -14,4 +14,4 @@
 # @raycast.author timoptimothy
 # @raycast.authorURL https://raycast.com/timoptimothy
 
-open ~/Integration/Plusout
+open /Volumes/prograde/Integration/Plusout
